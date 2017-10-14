@@ -14,7 +14,7 @@
 // automatically applied to the <body> element in the app.
 @import "../theme/emoji";
 
-$default-color: #14e6d4;
+$default-color: #48A9A6;
 
 .scroll-content {
   padding: 0 !important;
@@ -25,7 +25,7 @@ a.tab-button {
 
   &:last-of-type,
   &:last-of-type .tab-button-icon {
-    color: red !important;
+    color: #e63946 !important;
   }
 }
 
