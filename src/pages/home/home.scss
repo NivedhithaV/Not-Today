@@ -1,3 +1,37 @@
 page-home {
 
 }
+
+h3 {
+  font-size: 3em;
+  text-align: center;
+  background: rgba(255, 127, 80, 0.63);
+  color: white;
+  margin: 0;
+  padding: 25px;
+}
+
+.today-wrapper {
+  display: flex;
+  height: 90%;
+}
+
+.yes-today,
+.not-today {
+  flex: 1 1 50%;
+  font-size: 5em;
+  color: white;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.yes-today {
+  background: #65db96;
+}
+
+.not-today {
+  background: rgba(0, 0, 0, 0.58);
+}
