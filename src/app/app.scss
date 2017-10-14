@@ -18,3 +18,20 @@
 .scroll-content {
   padding: 0 !important;
 }
+
+a.tab-button {
+  color: #fff !important;
+
+  &:last-of-type,
+  &:last-of-type .tab-button-icon {
+    color: red !important;
+  }
+}
+
+.tab-button-icon {
+  color: #fff !important;
+}
+
+.tabbar {
+  background: #14e6d4 !important;
+}
