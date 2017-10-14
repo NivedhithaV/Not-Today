@@ -1,3 +1,54 @@
 page-mood {
 
 }
+
+$default-color: #14e6d4;
+
+
+.emoji-wrapper,
+.mood-text-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.emoji-icon {
+  padding: 10px;
+}
+
+.mood-text-wrapper {
+  margin: 10px 0;
+}
+
+.mood-text {
+  background: #fff;
+  border: 1px solid $default-color !important;
+  font-size: 20px;
+  border-radius: 30px;
+  color: $default-color;
+  padding: 5px 10px;
+  margin: 5px 10px;
+}
+
+.more-wrapper {
+  margin: 10px;
+
+  textarea {
+    height: 90px;
+    width: 100%;
+    border: 1px solid $default-color;
+    padding: 5px;
+
+    &::-webkit-input-placeholder {
+      font-size: 20px;
+    }
+  }
+}
+
+button {
+  height: 60px;
+  width: 95%;
+  margin: 10px;
+  color: #fff;
+  background: $default-color;
+  font-size: 20px;
+}
