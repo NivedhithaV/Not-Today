@@ -11,25 +11,26 @@ export class HomePage {
 
   }
 
-  /*motivate() {
-    let alert = this.alertCtrl.create({
-      title: 'Today is your day!',
-      subTitle: 'You rock!',
-      buttons: [
-        {
-          text: 'OK',
-          handler: () => {
-            console.log('Disagree clicked');
-          }
-        },
-        {
-          text: 'Share my mood',
-          handler: () => {
-            console.log('Agree clicked');
-          }
-        }
-      ]
-    });
-    alert.present();
-  }*/
+  // motivate() {
+  //   let alert = this.alertCtrl.create({
+  //     title: 'Today is your day!',
+  //     subTitle: 'You rock!',
+  //     buttons: [
+  //       {
+  //         text: 'OK',
+  //         handler: () => {
+  //           console.log('Disagree clicked');
+  //         }
+  //       },
+  //       {
+  //         text: 'Share my mood',
+  //         handler: () => {
+  //           console.log('Agree clicked');
+  //         }
+  //       }
+  //     ]
+  //   });
+  //   alert.present();
+  // }
+
 }
