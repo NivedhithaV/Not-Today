@@ -5,6 +5,15 @@ $default-color: #12adb2;
   padding: 20px;
 }
 
+.panic-wrapper h2{
+  color: $default-color;
+  text-align: center;
+  margin: 10px;
+  padding-bottom: 10px;
+  padding-top: 30px;
+  font-weight: bold;
+}
+
 .panic-text {
   background: #fff;
   border: 1px solid $default-color !important;
