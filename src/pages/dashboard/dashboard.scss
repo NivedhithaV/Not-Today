@@ -1,3 +1,61 @@
-page-dashboard {
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
 
+$cursive: 'Kaushan Script', cursive;
+
+.quote-wrapper {
+  font-family: $cursive;
+
+  .quote {
+    font-size: 100px;
+    color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+
+    &.quote-start {
+      top: 0;
+    }
+
+    &.quote-end {
+      top: 70px;
+      right: 0;
+    }
+  }
+
+  .quote-text {
+    font-size: 40px;
+    margin: 30px 10px;
+    font-family: $cursive;
+    color: white;
+    text-align: center;
+  }
+}
+
+.graph-wrapper {
+  height: 200px;
+  width: 100%;
+  margin-top: 30px;
+  text-align: center;
+
+  img {
+    width: 95%;
+    height: 80%;
+  }
+}
+
+.icon-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0;
+
+  img {
+    height: 100px;
+  }
+}
+
+.app-wrapper {
+  display: flex;
+  justify-content: space-around;
+
+  img {
+    height: 80px;
+  }
 }
