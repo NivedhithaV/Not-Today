@@ -1,22 +1,11 @@
-page-panic {
+$default-color: #12adb2;
 
-}
-
-$default-color: #14e6d4;
-
-// .mood-wrapper {
-//   display: flex;
-//   height: 94%;
-//   flex-direction: column;
-//   margin-top: 44px;
-// }
-
-.mood-text-wrapper {
+.panic-text-wrapper {
   margin: 10px;
   padding: 20px;
 }
 
-.mood-text {
+.panic-text {
   background: #fff;
   border: 1px solid $default-color !important;
   font-size: 20px;
@@ -25,13 +14,10 @@ $default-color: #14e6d4;
   padding: 10px 10px;
   margin: 10px 10px;
   text-align: center;
-  flex: 1 1 50%;
+  text-transform: capitalize;
 }
 
-.mood {
-  flex: 1 1 50%;
-  font-size: 5rem;
-  color: #14e6d4;
+.panic {
   height: 100%;
   display: flex;
   align-items: center;
@@ -40,54 +26,20 @@ $default-color: #14e6d4;
   padding: 10px;
   text-align: center;
   background: white;
-
 }
-
 
 .emergency {
-  flex: 1 1 15%;
-  font-size: 2.5rem;
-  color: white;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  padding-top: 75px;
-  padding-bottom: 20px;
+  margin-top: 20px;
   text-align: center;
-  background: $default-color;
 }
 
-
-button{
+.emergency button.call-btn {
+  background: #d10a15;
   font-size: 1.5em;
-  color: #14e6d4;
+  color: #fff;
   border-radius: 3em;
-  border-color: white;
   padding: .5em;
-  margin: .5em;
-  background: {
-    color: #fff;
-    image: linear-gradient(to bottom, transparent 50%, $default-color 50%);
-    position: 0% 0%;
-    size: 210%;
-  }
-  transition: background 150ms ease-in-out, color 150ms ease-in-out;
-  &:hover {
-    color: #fff;
-    background-position: 0 100%;
-  }
+  font-weight: 600;
+  width: 95%;
+  height: 60px;
 }
-
-
-
-
-
-// .emergency {
-//   background: $default-color;
-// }
-
-// .mood {
-//   background: rgba(0, 0, 0, 0.58);
-// }
