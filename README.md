@@ -1,26 +1,13 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+### Not Today App
 
-## How to use this template
+Built with Ionic (App ID to test app in Ionic View - 7b17c16c)
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+# Home Page
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+[Home](https://github.com/NivedhithaV/Not-Today/blob/master/not-today-home-page.png)
 
-### With the Ionic CLI:
+[Moods](https://github.com/NivedhithaV/Not-Today/blob/master/not-today-moods-page.png)
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+[Dashboard](https://github.com/NivedhithaV/Not-Today/blob/master/not-today-dashboard-page.png)
 
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myTabs tabs
-```
-
-Then, to run it, cd into `myTabs` and run:
-
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
-
-Substitute ios for android if not on a Mac.
-
+[Panic Mode](https://github.com/NivedhithaV/Not-Today/blob/master/not-today-panic-page.png)
