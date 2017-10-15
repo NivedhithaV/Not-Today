@@ -1,19 +1,6 @@
 $default-color: #12adb2;
 $accent-color: #8710b0;
 
-page-home {
-
-}
-
-h3 {
-  font-size: 2rem;
-  text-align: center;
-  background: rgba(255, 127, 80, 0.63);
-  color: white;
-  margin: 0;
-  padding: 20px;
-}
-
 .today-wrapper {
   display: flex;
   flex-direction: column;
@@ -28,10 +15,7 @@ h3 {
   top: 60px;
   left: 0;
   width: 100%;
-  background: white;
-  background-image: url("../../assets/highfive.gif");
-  background-repeat: no-repeat;
-  background-position: center;
+  background: white url("../../assets/highfive.gif") no-repeat center;
 }
 
 .yes-today,
@@ -50,7 +34,7 @@ h3 {
   button {
     font-size: 30px;
     padding: 20px;
-    height: 100px;
+    height: 150px;
     border-radius: 5px;
     background: $default-color;
     color: #fff;
@@ -58,11 +42,6 @@ h3 {
   }
 }
 
-.yes-today {
-  // background: $default-color;
-}
-
 .not-today {
-  // background: #8710b0;
-  // border-top: 2px solid #fff;
+  margin-bottom: 20px;
 }
