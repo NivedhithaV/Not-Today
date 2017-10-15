@@ -8,10 +8,17 @@
   </ion-header>
   <div class="today-wrapper">
     <div class="yes-today">
-      Today is the day!
-    </div>
+      <button (click)="showConfetti()">
+        Today is the day!
+      </button>
+  </div>
     <div class="not-today">
-      Nope, not today!
+      <button>
+        Nope, not today!
+      </button>
     </div>
+  </div>
+  <div class="confetti-wrapper" *ngIf="isConfetti">
+
   </div>
 </ion-content>

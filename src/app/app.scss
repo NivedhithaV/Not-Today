@@ -13,8 +13,14 @@
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
 @import "../theme/emoji";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-$default-color: #48A9A6;
+$default-color: #12adb2;
+$accent-color: #8710b0;
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
 
 .scroll-content {
   padding: 0 !important;
@@ -25,7 +31,7 @@ a.tab-button {
 
   &:last-of-type,
   &:last-of-type .tab-button-icon {
-    color: #e63946 !important;
+    // color: #e63946 !important;
   }
 }
 
@@ -35,9 +41,37 @@ a.tab-button {
 
 .tabbar {
   background: $default-color !important;
+  height: 60px;
+}
+
+.toolbar {
+  height: 60px;
+  background: $default-color;
 }
 
 .toolbar-title {
-  color: $default-color;
+  color: #fff;
   text-align: center;
+  font-size: 24px;
+}
+
+page-home,
+page-dashboard {
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(top, $default-color 0%, $accent-color 100%);
+
+  /* W3C Markup */
+  background-image: linear-gradient(to bottom, $default-color 0%, $accent-color 100%);
+
+  .toolbar-background {
+    background: transparent;
+  }
+
+  ion-content {
+    background: transparent !important;
+  }
+}
+
+.toolbar-background {
+  background: $default-color;
 }

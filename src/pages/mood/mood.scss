@@ -2,21 +2,18 @@ page-mood {
 
 }
 
-$default-color: #48A9A6;
-
+$default-color: #12adb2;
+$accent-color: #8710b0;
 
 .emoji-wrapper,
 .mood-text-wrapper {
   display: flex;
   flex-wrap: wrap;
+  margin: 10px 0;
 }
 
 .emoji-icon {
   padding: 10px;
-}
-
-.mood-text-wrapper {
-  margin: 10px 0;
 }
 
 .mood-text {

@@ -7,6 +7,8 @@ import {AlertController, NavController} from 'ionic-angular';
 })
 export class HomePage {
 
+  isConfetti = false;
+
   constructor(public navCtrl: NavController, public alertCtrl: AlertController) {
 
   }
@@ -32,4 +34,12 @@ export class HomePage {
     });
     alert.present();
   }*/
+
+  showConfetti() {
+    console.log('Confetti');
+    this.isConfetti = true;
+    setTimeout(() => {
+      this.isConfetti = false;
+    }, 3000);
+  }
 }
